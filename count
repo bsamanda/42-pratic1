@@ -1,0 +1,15 @@
+exercicio count files no linux
+
+c2r2p5% nano count_files.sh
+c2r2p5% chmod +x count_files.sh
+c2r2p5% ./count_files.sh | cat -e 
+./count_files.sh: 2: find.: not found
+0$
+c2r2p5% nano count_files.sh
+c2r2p5% chmod +x count_files.sh  
+c2r2p5% ./count_files.sh | cat -e 
+7$
+c2r2p5% ls
+bem  count_files.sh  ola  teste  teste2  teste3
+c2r2p5% 
+
